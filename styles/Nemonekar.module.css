@@ -1,0 +1,36 @@
+.tak-nemonekar-wide {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+}
+
+.tak-nemonekar {
+    width: 100%;
+}
+
+.tak-nemonekar-slider-div {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tak-nemonekar-slider-div-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tak-nemonekar-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px 0px;
+}
+
+.tak-bg-3{
+    position: absolute;
+    top: -30px;
+    left: 0;
+}

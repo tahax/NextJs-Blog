@@ -1,0 +1,33 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.tak-footer-wide{
+    width: 100%;
+    background-color: #111;
+}
+.tak-footer{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.tak-footer-text-bala{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+}
+.tak-footer-text-pain{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}

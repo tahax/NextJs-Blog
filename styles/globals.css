@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'bbadr';
+    font-style: normal;
+    src: local('bbadr'), url("/fonts/bbadr/BBadr.woff") format('woff2');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: iranyekanbold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+    direction: rtl;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none!important;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'bbadr';
+    font-weight: 100;
+}
+
+/*******************************/
+/*ANT DESIGN CSS*/
+.ant-dropdown-menu-item > a, .ant-dropdown-menu-submenu-title > a {
+    text-align: right !important;
+}
+
+.ant-card-actions > li {
+    margin: 0 !important;
+}
+
+.ant-card-body {
+    text-align: right !important;
+}
+
+.ant-list-item-meta-avatar {
+    margin-left: 16px;
+}
+
+.ant-list-vertical .ant-list-item-main {
+    display: block;
+    flex: 1;
+    direction: rtl;
+    text-align: right;
+}
+/*ANT DESIGN CSS*/

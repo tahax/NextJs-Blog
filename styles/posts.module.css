@@ -1,0 +1,35 @@
+.tak-posts-div-wide {
+    width: 100%;
+}
+
+.tak-posts-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.tak-bg1 {
+    position: absolute;
+    transform: rotate(15deg);
+    left: -300px;
+    top: -250px;
+}
+
+.tak-bg-6zeli-nazok {
+    position: absolute;
+    width: 70px;
+    height: auto;
+    left: 150px;
+    top: -165px;
+}
+
+@media only screen and (max-width: 550px) {
+    .tak-posts-div-wide {
+        overflow: hidden;
+    }
+}

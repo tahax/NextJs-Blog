@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'bbadr';
+    font-style: normal;
+    src: local('bbadr'), url("/fonts/bbadr/BBadr.woff") format('woff2');
+}
+
+.tak-header-wide {
+    font-family: bbadr;
+    font-size: 15px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+}
+
+.tak-header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tak-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #0070f3;
+    border-radius: 50px;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tak-li {
+    height: 100%;
+    display: flex;
+    color: #888;
+    align-items: center;
+    padding: 0 25px;
+    transition: 0.2s;
+}
+
+.tak-li:nth-child(1) {
+    padding: 0;
+    padding-left: 25px;
+}
+
+.tak-li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.tak-li:hover {
+    color: #007bec;
+}
+
+.tak-logo-png {
+    height: 55px;
+    width: auto;
+}
+.tak-menu-icon{
+    height: 25px;
+    width: auto;
+}
+.tak-robo-span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tak-logo-icon{
+    height: 30px;
+    padding-right: 10px;
+    width: auto;
+}
+.tak-robotext{
+    font-family: 'Poppins', sans-serif;
+    color: #007bec;
+    font-weight: 500;
+    font-size: 22px;
+}

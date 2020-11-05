@@ -1,0 +1,102 @@
+.tak-aks-va-tozihat-wide1 {
+    width: 100%;
+    background-color: transparent;
+    padding: 50px 0;
+}
+
+.tak-aks-va-tozihat-wide2 {
+    width: 100%;
+    background-color: transparent;
+}
+
+.imgaksvatozihat1 {
+    width: 100%;
+    height: auto;
+}
+
+.imgaksvatozihat2 {
+    display: none !important;
+}
+
+.aksVaTozihatVideo1 {
+    display: none !important;
+}
+
+.aksVaTozihatVideo2 {
+    width: 100%;
+    height: auto;
+}
+
+.tak-wrap-reverse1 {
+    direction: rtl;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tak-wrap-reverse2 {
+    direction: ltr;
+    display: flex;
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+}
+
+.tak-bg2-1{
+    position: absolute;
+    right: -60%;
+    top: -100px;
+}
+
+.tak-bg2-2{
+    display: none!important;
+}
+
+.tak-inner-col-text {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tak-title-inner-col {
+    padding-bottom: 10px;
+    color: #414141;
+    font-family: iranyekanbold;
+}
+
+.tak-descriptions {
+    text-align: justify;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 30px;
+    color: #999;
+}
+
+.tak-btn-aks-va-tozihat-div {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.tak-btn{
+    height: 38px!important;
+    font-family: iranyekanbold;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .tak-wrap-reverse1 {
+        flex-wrap: wrap-reverse;
+        overflow: hidden;
+    }
+    .tak-wrap-reverse2 {
+        direction: rtl;
+        flex-wrap: wrap-reverse;
+        overflow: hidden;
+    }
+}
